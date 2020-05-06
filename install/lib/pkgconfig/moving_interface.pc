@@ -1,0 +1,8 @@
+prefix=/home/eugeniomonari/catkin_ws/install
+
+Name: moving_interface
+Description: Description of moving_interface
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -linteractivity_utils
+Requires: moveit_core moveit_visual_tools moveit_ros_planning_interface interactive_markers

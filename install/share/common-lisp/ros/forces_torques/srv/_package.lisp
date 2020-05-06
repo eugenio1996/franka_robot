@@ -1,0 +1,10 @@
+(cl:defpackage forces_torques-srv
+  (:use )
+  (:export
+   "APPLYBODYWRENCH"
+   "<APPLYBODYWRENCH-REQUEST>"
+   "APPLYBODYWRENCH-REQUEST"
+   "<APPLYBODYWRENCH-RESPONSE>"
+   "APPLYBODYWRENCH-RESPONSE"
+  ))
+

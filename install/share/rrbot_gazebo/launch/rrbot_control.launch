@@ -1,0 +1,6 @@
+<launch>
+
+  <node pkg="rosservice" type="rosservice" name="torque" args="call /gazebo/apply_joint_effort '{joint_name: joint1 , effort: 0, start_time: 10000000000, duration: 100000000000 }'"/>
+  <node pkg="rosservice" type="rosservice" name="force" args="call /gazebo/apply_body_wrench '{body_name: link3 , wrench: { force: { x: 18, y: 18 , z: 0 } }, start_time: 10000000000, duration: 100000000000 }'"/>
+  
+</launch>
